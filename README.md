@@ -1,43 +1,42 @@
-# ASP (Windows Only)
+# ASP (Archived)
 
-> ⚠️ This project isn't production-ready, but you're welcome to try it out.
+> ⚠️ This repository has been archived and is no longer maintained.
 
-## Showcase
+Development has moved to the new repository:
 
-![asp](https://github.com/user-attachments/assets/ea9fc1e5-c631-454f-99a9-0bd669218cca)
+## 🚀 New Repository
 
-## 🔽 Release & Install
+https://github.com/logie-labs/asp-app
 
-1. **Download the latest release**
-   [Download from GitHub Releases](https://github.com/logie-school/asp-client/releases)
+The new repo includes the latest development, fixes, and future updates.
 
-2. **Run the executable**
-   Extract the `.zip` and run the `.exe` file inside.
-   If prompted by Windows, allow the app through any warnings.
+## 📦 Old Releases
 
-## ⚙️ Development
+Previous builds and releases for this archived version are still available here:
 
-1. **Clone the project**
+https://github.com/logie-school/asp-client/releases
+
+## 🛠 Legacy Development Setup
+
+This project was built for Windows only.
+
+1. Clone the project
 
    ```bash
    git clone https://github.com/logie-school/asp-client.git
    cd asp-client
    ```
 
-2. **Install dependencies**
+2. Install dependencies
 
    ```bash
    npm install --legacy-peer-deps
    ```
 
-3. **Run the development environment**
+3. Run development
 
    ```bash
    npm run dev
    ```
 
-   If the UI doesn't appear, press `Ctrl + R` to refresh.
-
-## 🐞 Found a bug?
-
-File an issue here: [GitHub Issues](https://github.com/logie-school/asp-client/issues)
+If the UI does not appear, press `Ctrl + R` to refresh the Electron window.
